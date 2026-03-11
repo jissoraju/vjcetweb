@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viswajyothi College of Engineering & Technology | Excellence in Education</title>
+<meta name="description" content="VJCET - A premier engineering college offering world-class education, research, and placement opportunities in Kerala, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left">
+      <span>📞 +91-484-2452286</span>
+      <span>✉️ info@vjcet.org</span>
+      <span>📍 Vazhakulam, Muvattupuzha, Kerala</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#" aria-label="Facebook">fb</a>
+      <a href="#" aria-label="Twitter">tw</a>
+      <a href="#" aria-label="YouTube">yt</a>
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" class="btn-portal">Student Portal</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">
+      <img src="vjcet_logo.png" alt="Viswajyothi College of Engineering & Technology" class="logo-img">
+    </a>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li class="has-dropdown">
+          <a href="#about" class="nav-link">About <span class="chevron">▾</span></a>
+          <ul class="dropdown">
+            <li><a href="#about">About VJCET</a></li>
+            <li><a href="#about">Vision &amp; Mission</a></li>
+            <li><a href="#about">Management</a></li>
+            <li><a href="#about">Principal's Desk</a></li>
+            <li><a href="#accreditation">Accreditations</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#academics" class="nav-link">Academics <span class="chevron">▾</span></a>
+          <ul class="dropdown">
+            <li><a href="#academics">UG Programs</a></li>
+            <li><a href="#academics">PG Programs</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#academics">Academic Calendar</a></li>
+            <li><a href="#academics">Examinations</a></li>
+          </ul>
+        </li>
+        <li><a href="#departments" class="nav-link">Departments</a></li>
+        <li><a href="#admissions" class="nav-link">Admissions</a></li>
+        <li class="has-dropdown">
+          <a href="#campus" class="nav-link">Campus Life <span class="chevron">▾</span></a>
+          <ul class="dropdown">
+            <li><a href="#campus">Clubs &amp; Activities</a></li>
+            <li><a href="#campus">Sports</a></li>
+            <li><a href="#campus">Hostel</a></li>
+            <li><a href="#campus">Library</a></li>
+          </ul>
+        </li>
+        <li><a href="#placements" class="nav-link">Placements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="search-btn" id="searchBtn" aria-label="Search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+      <a href="#admissions" class="btn-apply">Apply Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- SEARCH OVERLAY -->
+<div class="search-overlay" id="searchOverlay">
+  <div class="search-box">
+    <input type="text" placeholder="Search courses, departments, faculty..." id="searchInput">
+    <button class="search-close" id="searchClose">✕</button>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-gradient"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      NAAC Accredited 'A' Grade | NBA Accredited Programs
+    </div>
+    <h1 class="hero-title">
+      <span class="hero-title-line">Engineering</span>
+      <span class="hero-title-line accent">Excellence</span>
+      <span class="hero-title-line">Since 1994</span>
+    </h1>
+    <p class="hero-desc">
+      Shaping tomorrow's engineers with world-class education, cutting-edge research, and industry-aligned programs. Join 2,000+ students building the future.
+    </p>
+    <div class="hero-actions">
+      <a href="#admissions" class="btn-primary">Explore Admissions</a>
+      <a href="#about" class="btn-outline">Discover VJCET</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-num" data-target="2000">0</span>
+        <span class="stat-label">Students</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num" data-target="9">0</span>
+        <span class="stat-label">Departments</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num" data-target="150">0</span>
+        <span class="stat-label">Faculty</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-num" data-target="95">0</span>
+        <span class="stat-label">% Placement</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll to explore</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <div class="container ticker-inner">
+    <span class="ticker-label">🔔 Announcements</span>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <span>Admissions Open 2025–26 — Apply before April 30th &nbsp;|&nbsp;</span>
+        <span>VJCET ranked among top 50 engineering colleges in Kerala &nbsp;|&nbsp;</span>
+        <span>Campus Placement Drive: TCS, Infosys, Wipro — March 2025 &nbsp;|&nbsp;</span>
+        <span>NAAC Re-accreditation with 'A' Grade successfully obtained &nbsp;|&nbsp;</span>
+        <span>New Research Lab inaugurated in ECE Department &nbsp;|&nbsp;</span>
+        <span>International Conference on Emerging Technologies — April 2025 &nbsp;|&nbsp;</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ACCREDITATION -->
+<section class="accreditation" id="accreditation">
+  <div class="container">
+    <div class="section-label">Recognition &amp; Accreditation</div>
+    <h2 class="section-title">Certified Excellence</h2>
+    <p class="section-desc">VJCET holds prestigious accreditations affirming our commitment to quality education and academic excellence.</p>
+    <div class="accred-grid">
+      <div class="accred-card">
+        <div class="accred-badge-img"><img src="naac.jpg" alt="NAAC Accredited A Grade"></div>
+        <h3>NAAC Accredited</h3>
+        <p>National Assessment and Accreditation Council — Grade 'A' with a CGPA of 3.01 out of 4.00</p>
+        <span class="accred-year">Valid through 2027</span>
+      </div>
+      <div class="accred-card">
+        <div class="accred-badge-img"><img src="nba.png" alt="NBA Accredited"></div>
+        <h3>NBA Accredited</h3>
+        <p>National Board of Accreditation — Five UG programs accredited for outcome-based education</p>
+        <span class="accred-year">Renewed 2024</span>
+      </div>
+      <div class="accred-card">
+        <div class="accred-badge-img"><img src="aicte.png" alt="AICTE Approved"></div>
+        <h3>AICTE Approved</h3>
+        <p>All India Council for Technical Education — Approved institution since 1994 with consistent quality standards</p>
+        <span class="accred-year">Annual Renewal</span>
+      </div>
+      <div class="accred-card">
+        <div class="accred-badge-img"><img src="ktu.png" alt="KTU"></div>
+        <h3>APJ Abdul Kalam Technological University</h3>
+        <p>Affiliated to KTU — Offering B.Tech, M.Tech, and MCA programs under the university framework</p>
+        <span class="accred-year">Since 2015</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual">
+      <div class="about-img-main">
+        <img src="gate.jpeg" alt="VJCET College Gate — Viswajyothi Engineering College Autonomous" class="about-gate-img">
+      </div>
+      <div class="about-card-float">
+        <div class="float-num">30+</div>
+        <div class="float-text">Years of Academic Excellence</div>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="section-label">About VJCET</div>
+      <h2 class="section-title">Nurturing Engineers, Inspiring Innovators</h2>
+      <p>Established in 1994 by the Carmelites of Mary Immaculate (CMI), Viswajyothi College of Engineering and Technology (VJCET) is a premier engineering institution located in the serene campus of Vazhakulam, Muvattupuzha, Kerala.</p>
+      <p>With a legacy spanning over three decades, VJCET has consistently produced graduates who excel in global technology companies, startups, and research institutions. Our NAAC 'A' grade accreditation is a testament to our unwavering commitment to quality.</p>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <div class="highlight-icon">🎓</div>
+          <div><strong>Academic Rigor</strong><span>Outcome-based curriculum aligned with industry needs</span></div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🔬</div>
+          <div><strong>Research Focus</strong><span>40+ ongoing research projects with industry collaboration</span></div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🌍</div>
+          <div><strong>Global Exposure</strong><span>MoUs with international universities and industry leaders</span></div>
+        </div>
+      </div>
+      <a href="#academics" class="btn-primary">Explore Academics</a>
+    </div>
+  </div>
+</section>
+
+<!-- ACADEMICS -->
+<section class="academics" id="academics">
+  <div class="container">
+    <div class="section-label">Academic Programs</div>
+    <h2 class="section-title">Programs We Offer</h2>
+    <p class="section-desc">Industry-aligned programs designed to build technical expertise and professional competence.</p>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="ug">B.Tech (UG)</button>
+      <button class="tab-btn" data-tab="pg">M.Tech / MCA (PG)</button>
+    </div>
+    <div class="tab-content active" id="tab-ug">
+      <div class="programs-grid">
+        <div class="program-card"><div class="prog-icon">💻</div><h3>Computer Science &amp; Engineering</h3><p>AI, ML, Cloud Computing, Software Engineering</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>NBA Accredited</span></div></div>
+        <div class="program-card"><div class="prog-icon">⚡</div><h3>Electrical &amp; Electronics Engineering</h3><p>Power Systems, Control, Smart Grid, VLSI</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>NBA Accredited</span></div></div>
+        <div class="program-card"><div class="prog-icon">📡</div><h3>Electronics &amp; Communication Engineering</h3><p>Signal Processing, Embedded Systems, IoT, 5G</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>NBA Accredited</span></div></div>
+        <div class="program-card"><div class="prog-icon">⚙️</div><h3>Mechanical Engineering</h3><p>Thermal, Design, Manufacturing, Robotics</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>NBA Accredited</span></div></div>
+        <div class="program-card"><div class="prog-icon">🏗️</div><h3>Civil Engineering</h3><p>Structural, Environmental, Transportation Engineering</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>AICTE Approved</span></div></div>
+        <div class="program-card"><div class="prog-icon">🔧</div><h3>Information Technology</h3><p>Networking, Cybersecurity, Database, Web Dev</p><div class="prog-meta"><span>4 Years</span><span>60 Seats</span><span>NBA Accredited</span></div></div>
+      </div>
+    </div>
+    <div class="tab-content" id="tab-pg">
+      <div class="programs-grid">
+        <div class="program-card"><div class="prog-icon">🤖</div><h3>M.Tech — Computer Science &amp; Engineering</h3><p>Specialization in AI, Machine Learning, and Data Science</p><div class="prog-meta"><span>2 Years</span><span>18 Seats</span><span>Full Time</span></div></div>
+        <div class="program-card"><div class="prog-icon">📱</div><h3>M.Tech — VLSI &amp; Embedded Systems</h3><p>Chip Design, FPGA, Embedded Computing</p><div class="prog-meta"><span>2 Years</span><span>18 Seats</span><span>Full Time</span></div></div>
+        <div class="program-card"><div class="prog-icon">🖥️</div><h3>MCA — Master of Computer Applications</h3><p>Software Development, Cloud, Enterprise Applications</p><div class="prog-meta"><span>2 Years</span><span>30 Seats</span><span>Full Time</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPARTMENTS -->
+<section class="departments" id="departments">
+  <div class="container">
+    <div class="section-label">Our Departments</div>
+    <h2 class="section-title">Academic Departments</h2>
+    <div class="dept-grid">
+      <div class="dept-card" style="--c:#1e3a5f"><div class="dept-num">01</div><h3>Computer Science &amp; Engineering</h3><p>Cutting-edge CS education with focus on emerging technologies</p><div class="dept-stats"><span>3 Labs</span><span>25 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#7b2d00"><div class="dept-num">02</div><h3>Electronics &amp; Communication</h3><p>Signal processing, embedded systems, and communications research</p><div class="dept-stats"><span>4 Labs</span><span>22 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#0d4f3c"><div class="dept-num">03</div><h3>Electrical &amp; Electronics</h3><p>Power systems, smart grid, and renewable energy engineering</p><div class="dept-stats"><span>3 Labs</span><span>18 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#2d1b69"><div class="dept-num">04</div><h3>Mechanical Engineering</h3><p>Advanced manufacturing, thermal systems, and design innovation</p><div class="dept-stats"><span>5 Labs</span><span>20 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#1a4731"><div class="dept-num">05</div><h3>Civil Engineering</h3><p>Structural, environmental, and transportation engineering</p><div class="dept-stats"><span>3 Labs</span><span>16 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#4a1942"><div class="dept-num">06</div><h3>Information Technology</h3><p>Networks, cybersecurity, and enterprise software development</p><div class="dept-stats"><span>2 Labs</span><span>14 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#5c3200"><div class="dept-num">07</div><h3>Applied Sciences &amp; Humanities</h3><p>Foundation courses in Physics, Chemistry, Mathematics, and English</p><div class="dept-stats"><span>2 Labs</span><span>20 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#0a3d62"><div class="dept-num">08</div><h3>Master of Computer Applications</h3><p>Professional PG program in advanced computing and software</p><div class="dept-stats"><span>2 Labs</span><span>10 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+      <div class="dept-card" style="--c:#1c1c2e"><div class="dept-num">09</div><h3>Research &amp; Development Cell</h3><p>Innovation hub fostering interdisciplinary research and patents</p><div class="dept-stats"><span>40+ Projects</span><span>12 Faculty</span></div><a href="#" class="dept-link">View Department →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ADMISSIONS -->
+<section class="admissions" id="admissions">
+  <div class="container">
+    <div class="admissions-grid">
+      <div class="admissions-content">
+        <div class="section-label">Admissions 2025–26</div>
+        <h2 class="section-title">Join the VJCET Family</h2>
+        <p>Applications are now open for the academic year 2025–26. Secure your seat in one of Kerala's premier engineering institutions.</p>
+        <div class="admission-steps">
+          <div class="step"><div class="step-num">01</div><div class="step-info"><strong>Check Eligibility</strong><span>10+2 with Physics, Chemistry, Mathematics — 50% aggregate</span></div></div>
+          <div class="step"><div class="step-num">02</div><div class="step-info"><strong>Appear for KEAM / JEE</strong><span>Valid KEAM / JEE Main score required for admission</span></div></div>
+          <div class="step"><div class="step-num">03</div><div class="step-info"><strong>Online Application</strong><span>Submit application through LBS Kerala or college portal</span></div></div>
+          <div class="step"><div class="step-num">04</div><div class="step-info"><strong>Allotment &amp; Joining</strong><span>Attend allotment, pay fees, and report for admission</span></div></div>
+        </div>
+        <div class="admission-deadline">
+          <span class="deadline-icon">📅</span>
+          <div><strong>Application Deadline</strong><span>April 30, 2025</span></div>
+        </div>
+        <a href="#contact" class="btn-primary">Apply Now</a>
+      </div>
+      <div class="admissions-fees">
+        <h3>Fee Structure 2025–26</h3>
+        <div class="fee-table">
+          <div class="fee-row header"><span>Program</span><span>Annual Fees</span></div>
+          <div class="fee-row"><span>B.Tech (All Branches)</span><span>₹1,12,500</span></div>
+          <div class="fee-row"><span>M.Tech</span><span>₹80,000</span></div>
+          <div class="fee-row"><span>MCA</span><span>₹70,000</span></div>
+        </div>
+        <div class="scholarship-info">
+          <h4>🎓 Scholarships Available</h4>
+          <ul>
+            <li>Merit-based scholarship for top 5% students</li>
+            <li>SC/ST/OBC scholarship as per government norms</li>
+            <li>Management merit scholarship</li>
+            <li>Sports &amp; cultural activity scholarship</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLACEMENTS -->
+<section class="placements" id="placements">
+  <div class="container">
+    <div class="section-label">Career &amp; Placements</div>
+    <h2 class="section-title">Building Careers Since 1994</h2>
+    <p class="section-desc">Our dedicated Training &amp; Placement Cell ensures every student gets the best career opportunity.</p>
+    <div class="placement-stats">
+      <div class="pl-stat"><div class="pl-num">95<span>%</span></div><div class="pl-label">Placement Rate 2024</div></div>
+      <div class="pl-stat"><div class="pl-num">₹12L</div><div class="pl-label">Highest Package</div></div>
+      <div class="pl-stat"><div class="pl-num">₹4.8L</div><div class="pl-label">Average Package</div></div>
+      <div class="pl-stat"><div class="pl-num">100<span>+</span></div><div class="pl-label">Recruiting Companies</div></div>
+    </div>
+    <div class="companies-section">
+      <h3>Our Placement Partners</h3>
+      <div class="companies-grid">
+        <div class="company-logo">TCS</div>
+        <div class="company-logo">Infosys</div>
+        <div class="company-logo">Wipro</div>
+        <div class="company-logo">HCL</div>
+        <div class="company-logo">Cognizant</div>
+        <div class="company-logo">Accenture</div>
+        <div class="company-logo">IBM</div>
+        <div class="company-logo">Capgemini</div>
+        <div class="company-logo">L&amp;T Infotech</div>
+        <div class="company-logo">UST Global</div>
+        <div class="company-logo">IBS Group</div>
+        <div class="company-logo">MindTree</div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <h3>What Our Alumni Say</h3>
+      <div class="testimonial-grid">
+        <div class="testimonial-card"><div class="testimonial-quote">"</div><p>VJCET gave me the technical foundation and industry exposure to land a role at TCS straight out of college. The faculty's guidance was invaluable.</p><div class="testimonial-author"><div class="author-avatar">AR</div><div><strong>Arun Raj</strong><span>Software Engineer, TCS | CSE 2022</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-quote">"</div><p>The research environment and well-equipped labs helped me develop practical skills. VJCET's placement cell was incredibly supportive throughout.</p><div class="testimonial-author"><div class="author-avatar">PM</div><div><strong>Priya Menon</strong><span>Systems Analyst, Infosys | ECE 2021</span></div></div></div>
+        <div class="testimonial-card"><div class="testimonial-quote">"</div><p>From day one, VJCET focuses on holistic development. The extracurriculars, technical fests, and mentoring truly shape you as an engineer and as a person.</p><div class="testimonial-author"><div class="author-avatar">SK</div><div><strong>Sneha Krishnan</strong><span>Product Manager, Wipro | IT 2020</span></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPUS LIFE -->
+<section class="campus" id="campus">
+  <div class="container">
+    <div class="section-label">Campus Life</div>
+    <h2 class="section-title">Life at VJCET</h2>
+    <p class="section-desc">A vibrant campus that nurtures talent beyond the classroom through sports, culture, and innovation.</p>
+    <div class="campus-grid">
+      <div class="campus-card large"><div class="campus-img"><img src="ground.png" alt="Sports Complex"></div><div class="campus-info"><h3>Sports Complex</h3><p>Fully equipped sports facilities including cricket ground, football field, basketball court, badminton courts, and a modern gymnasium.</p></div></div>
+      <div class="campus-card"><div class="campus-img"><img src="library.png" alt="Central Library"></div><div class="campus-info"><h3>Central Library</h3><p>Over 50,000 books, journals, and digital resources with 24/7 reading rooms.</p></div></div>
+      <div class="campus-card"><div class="campus-img"><img src="hostel.png" alt="Hostel Facilities"></div><div class="campus-info"><h3>Hostel Facilities</h3><p>Separate hostels for boys and girls with modern amenities and Wi-Fi connectivity.</p></div></div>
+      <div class="campus-card"><div class="campus-img"><img src="cultural.png" alt="Cultural Hub"></div><div class="campus-info"><h3>Cultural Hub</h3><p>Annual cultural fest VJESTA, technical symposium TECHVISION, and numerous student clubs.</p></div></div>
+      <div class="campus-card"><div class="campus-img"><img src="r_d.png" alt="Research Labs"></div><div class="campus-info"><h3>Research Labs</h3><p>State-of-the-art research laboratories with modern equipment for advanced project work.</p></div></div>
+      <div class="campus-card large"><div class="campus-img"><img src="cafeteria.png" alt="Cafeteria"></div><div class="campus-info"><h3>Cafeteria &amp; Food Court</h3><p>Spacious cafeteria serving hygienic, nutritious meals to 2,000+ students daily with multiple cuisine options.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS & EVENTS -->
+<section class="news" id="news">
+  <div class="container">
+    <div class="news-header">
+      <div><div class="section-label">News &amp; Events</div><h2 class="section-title">Latest from VJCET</h2></div>
+      <a href="#" class="btn-outline-sm">View All News</a>
+    </div>
+    <div class="news-grid">
+      <div class="news-card featured"><div class="news-date">March 15, 2025</div><div class="news-tag">Achievement</div><h3>VJCET Achieves NAAC 'A' Grade Re-accreditation</h3><p>VJCET has successfully obtained re-accreditation from NAAC with an 'A' grade, affirming our commitment to quality education and continuous improvement in academic standards.</p><a href="#" class="news-read">Read More →</a></div>
+      <div class="news-card"><div class="news-date">March 10, 2025</div><div class="news-tag">Placement</div><h3>TCS Campus Recruitment Drive — 45 Students Placed</h3><p>TCS conducted its annual campus recruitment drive at VJCET, selecting 45 students from CSE, ECE, and IT branches.</p><a href="#" class="news-read">Read More →</a></div>
+      <div class="news-card"><div class="news-date">March 5, 2025</div><div class="news-tag">Research</div><h3>ECE Department Inaugurates IoT Research Lab</h3><p>A new IoT and Embedded Systems research laboratory has been inaugurated in the ECE department, equipped with latest hardware and development tools.</p><a href="#" class="news-read">Read More →</a></div>
+      <div class="news-card"><div class="news-date">Feb 28, 2025</div><div class="news-tag">Event</div><h3>TECHVISION 2025 — National Technical Symposium</h3><p>VJCET's annual technical symposium drew over 500 participants from 30+ colleges with competitions in paper presentation, coding, and robotics.</p><a href="#" class="news-read">Read More →</a></div>
+    </div>
+    <div class="upcoming-events">
+      <h3>Upcoming Events</h3>
+      <div class="events-list">
+        <div class="event-item"><div class="event-date-box"><span>APR</span><span>10</span></div><div class="event-details"><strong>International Conference on Emerging Technologies (ICET 2025)</strong><span>VJCET Auditorium | 9:00 AM – 5:00 PM</span></div><a href="#" class="event-register">Register</a></div>
+        <div class="event-item"><div class="event-date-box"><span>APR</span><span>18</span></div><div class="event-details"><strong>Annual Alumni Meet 2025 — Reconnect &amp; Inspire</strong><span>College Campus | 10:00 AM</span></div><a href="#" class="event-register">Register</a></div>
+        <div class="event-item"><div class="event-date-box"><span>MAY</span><span>05</span></div><div class="event-details"><strong>VJESTA 2025 — Annual Cultural Festival</strong><span>VJCET Campus | 2 Days</span></div><a href="#" class="event-register">Register</a></div>
+        <div class="event-item"><div class="event-date-box"><span>MAY</span><span>20</span></div><div class="event-details"><strong>Industry Expert Lecture Series — AI &amp; Future Tech</strong><span>Seminar Hall | 2:00 PM</span></div><a href="#" class="event-register">Register</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-label">Get in Touch</div>
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item"><div class="contact-icon">📍</div><div><strong>Address</strong><span>Viswajyothi College of Engineering &amp; Technology<br>Vazhakulam P.O., Muvattupuzha<br>Ernakulam District, Kerala — 686 670</span></div></div>
+        <div class="contact-item"><div class="contact-icon">📞</div><div><strong>Phone</strong><span>+91-484-2452286 / 2452287</span></div></div>
+        <div class="contact-item"><div class="contact-icon">✉️</div><div><strong>Email</strong><span>info@vjcet.org<br>info@vjcet.org<br>info@vjcet.org</span></div></div>
+        <div class="contact-item"><div class="contact-icon">🕐</div><div><strong>Office Hours</strong><span>Monday – Saturday: 9:00 AM – 5:00 PM<br>Sunday: Closed</span></div></div>
+        <div class="contact-social">
+          <a href="#" class="social-btn">Facebook</a>
+          <a href="#" class="social-btn">Twitter</a>
+          <a href="#" class="social-btn">YouTube</a>
+          <a href="#" class="social-btn">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group"><label>Full Name</label><input type="text" placeholder="Your full name" required></div>
+            <div class="form-group"><label>Email Address</label><input type="email" placeholder="your@email.com" required></div>
+          </div>
+          <div class="form-group"><label>Subject</label><select><option>Admissions Inquiry</option><option>Placement Information</option><option>Research Collaboration</option><option>General Query</option></select></div>
+          <div class="form-group"><label>Message</label><textarea rows="4" placeholder="Your message here..."></textarea></div>
+          <button type="submit" class="btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-map">
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <p>VJCET Campus<br>Vazhakulam, Kerala</p>
+          <a href="https://maps.google.com/?q=Viswajyothi+College+of+Engineering+and+Technology" target="_blank" class="btn-outline-sm">Open in Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-main">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="vjcet_logo.png" alt="Viswajyothi College of Engineering & Technology" class="logo-img footer-logo-img">
+        </div>
+        <p>Established in 1994 by the Carmelites of Mary Immaculate (CMI), VJCET is a premier engineering institution dedicated to excellence in education, research, and innovation.</p>
+        <div class="footer-accred-badges">
+          <img src="naac.jpg" alt="NAAC" class="footer-accred-img">
+          <img src="nba.png" alt="NBA" class="footer-accred-img">
+          <img src="aicte.png" alt="AICTE" class="footer-accred-img">
+          <img src="ktu.png" alt="KTU" class="footer-accred-img">
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#placements">Placements</a></li>
+          <li><a href="#campus">Campus Life</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Departments</h4>
+        <ul>
+          <li><a href="#departments">Computer Science</a></li>
+          <li><a href="#departments">Electronics &amp; Comm.</a></li>
+          <li><a href="#departments">Electrical &amp; Elec.</a></li>
+          <li><a href="#departments">Mechanical Engg.</a></li>
+          <li><a href="#departments">Civil Engineering</a></li>
+          <li><a href="#departments">Information Tech.</a></li>
+          <li><a href="#departments">Applied Sciences</a></li>
+          <li><a href="#departments">MCA</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact &amp; Location</h4>
+        <address>
+          <p>📍 Vazhakulam P.O., Muvattupuzha<br>Ernakulam, Kerala — 686 670</p>
+          <p>📞 +91-484-2452286</p>
+          <p>✉️ info@vjcet.org</p>
+        </address>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook" class="social-circle">f</a>
+          <a href="#" aria-label="Twitter" class="social-circle">t</a>
+          <a href="#" aria-label="YouTube" class="social-circle">y</a>
+          <a href="#" aria-label="LinkedIn" class="social-circle">in</a
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2025 Viswajyothi College of Engineering &amp; Technology. All Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Sitemap</a>
+        <a href="#">RTI</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
